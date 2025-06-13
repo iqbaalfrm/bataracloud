@@ -17,7 +17,7 @@ const Footer = () => {
                 <Cloud className="h-8 w-8 text-blue-400" />
                 <Zap className="h-4 w-4 text-orange-400 absolute -top-1 -right-1" />
               </div>
-              <span className="text-xl font-bold">Bataracoud</span>
+              <span className="text-xl font-bold">BataraCloud</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               VPS lokal terpercaya untuk developer Indonesia. Server berkualitas, 
@@ -77,8 +77,8 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Kontak</h3>
             <ul className="space-y-2 text-gray-400">
               <li>WhatsApp: +62858 - 6753 - 4788</li>
-              <li>Telegram: @bataracoud</li>
-              <li>Email: admin@bataracoud.my.id</li>
+              <li>Telegram: @BataraCloud</li>
+              <li>Email: admin@BataraCloud.my.id</li>
               <li>Support: 24/7</li>
             </ul>
           </div>
@@ -86,10 +86,10 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Bataracoud. All rights reserved.
+            © 2025 BataraCloud. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm mt-4 sm:mt-0">
-            Bataracoud mendukung penggunaan legal dan bertanggung jawab
+            BataraCloud mendukung penggunaan legal dan bertanggung jawab
           </p>
         </div>
       </div>

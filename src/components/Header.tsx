@@ -19,7 +19,7 @@ const Header = () => {
               <Cloud className="h-8 w-8 text-blue-500" />
               <Zap className="h-4 w-4 text-orange-500 absolute -top-1 -right-1" />
             </div>
-            <span className="text-xl font-bold text-gray-900">Bataracoud</span>
+            <span className="text-xl font-bold text-gray-900">BataraCloud</span>
           </div>
 
           {/* Desktop Navigation */}

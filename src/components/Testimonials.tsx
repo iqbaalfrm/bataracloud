@@ -7,7 +7,7 @@ const Testimonials = () => {
       name: 'Andi Pratama',
       role: 'Developer Bot',
       image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop&crop=face',
-      content: 'Pakai Bataracoud buat deploy bot Telegram lancar banget. Uptime stabil, support responsif. Cocok banget buat developer yang butuh server reliable tapi budget terbatas.',
+      content: 'Pakai BataraCloud buat deploy bot Telegram lancar banget. Uptime stabil, support responsif. Cocok banget buat developer yang butuh server reliable tapi budget terbatas.',
       rating: 5
     },
     {
@@ -21,7 +21,7 @@ const Testimonials = () => {
       name: 'Sarah Wijaya',
       role: 'Pemilik UMKM',
       image: 'https://images.pexels.com/photos/3783725/pexels-photo-3783725.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop&crop=face',
-      content: 'Website toko online saya jadi lebih cepat setelah pindah ke Bataracoud. Harga terjangkau, server Indonesia bikin akses customer lokal jadi smooth. Recommended!',
+      content: 'Website toko online saya jadi lebih cepat setelah pindah ke BataraCloud. Harga terjangkau, server Indonesia bikin akses customer lokal jadi smooth. Recommended!',
       rating: 5
     }
   ];
