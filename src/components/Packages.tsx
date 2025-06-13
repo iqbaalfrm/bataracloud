@@ -132,14 +132,22 @@ const Packages = () => {
                   ))}
                 </div>
 
-                {/* CTA Button */}
-                <button className={`w-full py-3 px-4 rounded-lg font-semibold transition-all ${
+                              {/* CTA Button */}
+                              <button
+                onClick={() => {
+                  const message = `Halo admin Bataracloud, saya tertarik membeli paket ${pkg.name}.`;
+                  const waLink = `https://wa.me/6285867534788?text=${encodeURIComponent(message)}`;
+                  window.open(waLink, '_blank');
+                }}
+                className={`w-full py-3 px-4 rounded-lg font-semibold transition-all ${
                   pkg.popular
                     ? 'bg-blue-600 hover:bg-blue-700 text-white'
                     : 'bg-gray-100 hover:bg-blue-600 text-gray-900 hover:text-white'
-                }`}>
-                  Pilih {pkg.name}
-                </button>
+                }`}
+              >
+                Pilih {pkg.name}
+              </button>
+
               </div>
             </div>
           ))}
